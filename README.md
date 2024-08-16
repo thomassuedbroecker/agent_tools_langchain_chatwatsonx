@@ -2,7 +2,7 @@
 
 This repository is an example using the langchain_ibm implementation for action function calling with ChatWatsonx class.
 
-Related blog post: XXX
+Related blog post: [Does it work to use WatsonxChat from langchain_ibm to implement an action that invokes functions?](https://wp.me/paelj4-1Sc)
 
 ## 0. Clone the repository
 
