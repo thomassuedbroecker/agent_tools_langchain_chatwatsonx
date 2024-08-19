@@ -1,8 +1,6 @@
 #############################
 # Environment variables
-cd ..
-source ./.venv/bin/activate
-cd code
+source ./venv/bin/activate
 source .env
 
 # Optional for get watsonx instance id
