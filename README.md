@@ -1,6 +1,6 @@
 # Does it work to use WatsonxChat from langchain_ibm to implement an action that invokes functions?
 
-This repository is an example using the langchain_ibm implementation for action function calling with ChatWatsonx class.
+This repository is an example using the langchain_ibm implementation for action and function calling with ChatWatsonx class.
 
 Related blog post: [Does it work to use WatsonxChat from langchain_ibm to implement an action that invokes functions?](https://wp.me/paelj4-1Sc)
 
