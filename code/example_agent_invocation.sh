@@ -3,7 +3,7 @@
 source ./venv/bin/activate
 source .env
 
-# Optional for get watsonx instance id
+# Optional for gettting the watsonx instance id
 export IBMCLOUD_REGION="YOUR REGION example 'eu-de'"
 export IBMCLOUD_GROUP="YOUR GROUP example 'default'"
 export WATSONMACHINELEARNING_SERVICE_NAME=YOUR_SERVICE_NAME
