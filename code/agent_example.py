@@ -2,6 +2,7 @@ import argparse
 import json
 import requests
 
+from langchain.globals import set_debug
 from langchain_ibm import ChatWatsonx
 from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate
@@ -107,7 +108,10 @@ def load_env():
                  "apikey": apikey }
 
 def agent_tools_calling():
-     
+
+     langchain_debug = False    
+     set_debug(langchain_debug)
+  
      environment = load_env()
      print(f"1. Load thhe environment variables\n{environment}\n\n")  
 
